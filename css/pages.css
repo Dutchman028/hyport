@@ -12,15 +12,7 @@
     float: right;
 }
 
-.profile{
-    display:none;
-    padding:30px 100px 100px 100px;
-}
-.profile-list{
-    list-style: none;
-    padding-right: 20px;
-    padding-top:30px;
-}
+
 .item{
     font-size:1.2em;
     margin-right: 20px;
@@ -179,3 +171,52 @@
 .projectDetails{
     display: none;
 }
+
+
+
+/*profile*/
+.profile{
+    display: none;
+}
+
+.name .name-jp{
+    font-size: 56px;
+    padding-right:16px;
+    letter-spacing: 4px;
+    float:left;
+}
+
+.name .name-en{
+    font-size:20px;
+    letter-spacing: 2px;
+    position: relative;
+    top:52px;
+}
+
+.greet{
+    float: left;
+    width:100%;
+}
+
+
+.skill-area{
+    float: left;
+}
+
+.skill-title{
+    float: left;
+    font-size:22px;
+    border-bottom:solid;
+    width:64px;
+}
+
+.profile img{
+    width:230px;
+    height: 230px;
+    object-fit: cover;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+
