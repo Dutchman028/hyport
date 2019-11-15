@@ -136,6 +136,54 @@
         position: relative;
         top:10rem;
     }
+    /*PROFILE*/
+    .profile img{
+        height: 200px;
+        width:200px;
+        position: relative;
+        top:24px;
+        padding-left:132px;
+    }
+
+    .name{
+        padding-left:32px;
+    }
+
+    .name .name-jp{
+        font-size:22px;
+        padding-top:32px;
+    }
+
+    .name .name-en{
+        font-size:11px;
+        top:46px;
+    }
+
+    .greet{
+        font-size:13px;
+        width:auto;
+        padding:0 34px;
+    }
+
+    .greet p{
+        margin:0;
+    }
+
+
+    .skill-area{
+        padding:0 34px;
+        padding-top:16px;
+        font-size:13px;
+    }
+    
+    .skill-title{
+        float: left;
+        font-size:16px;
+        border-bottom:solid;
+        width:64px;
+    }
+    
+
     /*ANIMATION*/
     .menu:hover::before{
         width:100%;
